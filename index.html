@@ -1,18 +1,129 @@
 <!DOCTYPE html>
 <html>
-<!-- This is the head of our html whre we add external resources and metadata -->
+<!-- This is the head of our html where we add external resources and metadata -->
 <head>
 
-    <title> Peekaboo! </title>
 
-    <!-- This is the CSS stylesheet -->
-    <link rel="stylesheet" href="/style.css">
+
+    <title> sleep like a baby </title>
+
+    <!-- This is our font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Gridlex for our flexbox grids-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+    <!-- Google fonts - Catamaran (200, 400, 500, 800) -->
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet"> 
+
+
+
+    <!-- This is the CSS stylesheet, this always goes last -->
+    <link href="/style.css" rel="stylesheet">
 
 </head>
-<!-- This is the body of our html, this is where all of the page content goes -->
+    <!-- This is the body of our html, this is where all of the page content goes -->
 <body>
 
-    <h1> Hello World, how are you? </h1>
+    <!--------------- Header Banner ---------------->
+    <header class="padded grid text-center tall-100">
+        <div class="col-12-middle">
+            <h3> <span class="featured-text"> sleep </span> like a baby </h3>
+            <h1 class="font-weight-light"> the ultimate mattress solution </h1>
+        </div>
+    </header>
+
+    <!----------------- Gallery / about section ---------------->
+    <section class="grid"> 
+        <div class="padded col-6-middle"> 
+            <h2> built to last a <span class="featured-text"> lifetime </span> </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, corrupti sunt itaque omnis magni reiciendis cupiditate inventore repellat, asperiores facilis libero similique saepe ad perspiciatis pariatur vitae modi ipsum tenetur? </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. At omnis unde a dignissimos qui, incidunt, eum ab, eos quas alias quibusdam numquam debitis. Cumque velit illum maxime laborum molestias praesentium. </p>
+        </div>
+        <div class="bg-image bg-bed col-6 tall-70">
+            <!-- background image bed -->
+        </div>
+        <div class="bg-image bg-pug col-6 tall-70">
+            <!-- background image pug -->
+        </div>
+        <div class="padded col-6-middle">
+            <h2> so <span class="featured-text"> soft </span> you'll melt </h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, perspiciatis quisquam ad optio, saepe eligendi, natus corrupti reprehenderit beatae fuga doloribus? Ad, natus sed fugiat ratione temporibus vero sunt facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt fugit tenetur maiores facilis nemo ducimus distinctio eaque repudiandae quia velit ipsum, doloribus asperiores, nam odio animi, quibusdam delectus accusamus! prehenderit beatae fuga doloribus? Ad, natus sed fugiat ra </p>
+
+        </div>
+    </section>
+
+    <!----------------- Features icon grid ------------------>
+
+    <section class="padded grid bg-dark">
+        <div class="padded-sm col-12 text-center"> 
+            <h2> <span class="featured-text"> features </span> you will love </h2>
+        </div>
+        <div class="padded-sm col-3"> 
+            <i class="fas fa-cloud text-center"></i>
+            <p> Lorem ipsum dolor sit amet consec tetur adipisicing elit. Reprehenderit nostrum dolorem at porro ut molestiae aliquam ipsum impedit nisi dolore voluptas, sequi sunt temporibus eius. Doloremque architecto provident dignissimos optio hirito. </p>
+        </div>
+        <div class="padded-sm col-3"> 
+            <i class="fas fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Reprehenderit nostrum dolorem at porro ut molestiae aliquam ipsum impedit nisi dolore voluptas, sequi sunt temporibus eius. Doloremque architecto provident dignissimos optio hirito. </p>
+        </div>
+        <div class="padded-sm col-3"> 
+            <i class="fas fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet consect etur adipisicing elit. Reprehenderit nostrum dolorem at porro ut molestiae aliquam ipsum impedit nisi dolore voluptas, sequi sunt temporibus eius. Doloremque architecto provident dignissimos optio hirito. </p>
+        </div>
+        <div class="padded-sm col-3"> 
+            <i class="fas fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet consect etur adipisicing elit. Reprehenderit nostrum dolorem at porro ut molestiae aliquam ipsum impedit nisi dolore voluptas, sequi sunt temporibus eius. Doloremque architecto provident dignissimos optio hirito. </p>
+        </div>
+    </section>
+
+    
+    <!----------------- Image banner ------------------>
+
+    <section class="padded text-center bg-pillow tall-70 grid bg-image">
+        <div class="col-12-middle">
+            <h3 class="big-text"> 
+                <span class="small-text font-weight-normal"> never underestimate the power of </span> 
+                <br> a good night <span class="white-text"> sleep </span> 
+            </h3>
+        </div>
+    </section>
+    
+    
+    <!----------------- Testimonial section ------------------>
+
+    <section class="padded-lg grid">
+        <div class="col-1 text-right"> 
+            <span class="quote-icon">“</span>
+        </div>
+        <div class="col-10 text-center"> 
+            <p class="medium-text font-weight-light"> I've never experienced sleep like this. Omg I really love this mattress. I want to buy one for every member of my family </p>
+            <p class="subtitle"> - A very happy customer </p>
+        </div>
+        <div class="col-1"> 
+            <span class="quote-icon">”</span>
+        </div>
+    </section>
+
+    
+    
+    <!----------------- Footer ------------------>
+  
+    <footer class="padded grid-spaceBetween bg-dark"> 
+        <div class="col-4-bottom"> 
+            <h2> let's <br> <span class="featured-text"> connect </span> </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. A laborum officia inventore saepe consectetur quod sapiente quas ex animi odio nobis debitis, dolore ipsam modi quos laboriosam cum, eveniet dignissimos?</p>
+        </div>
+    
+        <div class="col-6-bottom">
+            <p> <strong> Call:</strong> <a href="tel:07325 856 253"> 07325 856 253 </a> </p>
+            <p> <strong> Email:</strong> <a href="mailto:#"></a>hello@loveyourmattress.com </a> </p>
+            <p> <strong> Store:</strong> 72 High Street, Hitchin </p>
+            <p> <strong> Instagram:</strong> <a href="#"></a>@thesleepco </a> </p>
+        </div>
+    </footer>
 
 </body>
 
